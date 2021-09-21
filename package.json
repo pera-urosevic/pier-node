@@ -1,0 +1,21 @@
+{
+  "name": "pier",
+  "version": "1.0.0",
+  "description": "PiExamineR",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "powershell -File .\\dev.ps1",
+    "dev-log": "powershell -File .\\dev-log.ps1",
+    "server": "node server/index.js"
+  },
+  "author": "Pera Urosevic",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
+}
